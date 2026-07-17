@@ -12,4 +12,5 @@ public interface ITarifaRepository extends JpaRepository<Tarifa, Long> {
 
 	Optional<Tarifa> findByTipoVehiculo(TipoVehiculo tipoVehiculo);
 	
+	
 }
